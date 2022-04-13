@@ -3,114 +3,359 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-	<title>Bare Business</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Titan One&display=swap" rel="stylesheet">
-
-
+	<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Oranienbaum&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap" rel="stylesheet">
+	<title>Chicken Stir Fry</title>
 	<style type="text/css">
-		body{
-			background:#C7FFED;
+		h1 {
+			margin: 50px;
+			text-align: center;
+			font-family: 'Pattaya',cursive;
+			background: #E6BEAE;
+			padding: 25%;
 		}
-		h1{
-			font-family: "Fugaz One", cursive;
-			font-size: 50px;
-			background-color:#9C7178;
+		h3 {
+			margin: 50px;
+			text-align: center;
+			font-family: 'Pattaya',cursive;
+			font-size: 30px;
+			background: #E6BEAE;
+			padding: 2%;
 		}
-		li{
-			font-size: 40px;
+		h4{
+			text-align: center;
+			font-size: 20px;
 		}
 		p{
-			font-family: "Gideon Roman", cursive;
-			font-size: 20px;
+			font-family: 'Oranienbaum',cursive;
+			font-size: 40px;
 		}
-		section{
-			font-family: "Bree Serif", cursive;
-			font-size: 20px;
+		li {
+			color: #F8F7F9;
 		}
-		.moved {
-			padding: 50px;
-			margin: 0 50px;
+		button{
+			transition-duration: 0.4s;
+
+			}
+		button:hover{
+			background-color: #f44336;
+			color: magenta;
+			text-decoration: #CCC9DC;
 		}
-		.fittingsize {
-			padding-right: 20px;
+		#nicebackground{
+			background-image: url(chefs.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-left: 1%;
+			margin-right: 1%;
 		}
-		.ButtonHover{
-			background-position: right;
+		#borderimg { 
+  			border: 10px solid;
+  			padding: 15px;
+  			margin: 1%;
+  			border-image-source: url(kitchenware.webp);
+  			border-image-repeat: repeat;
+  			border-image-slice: 30;
+  			border-image-width: 20px;  
 		}
-		h2{
-			font-family: "Titan One", cursive;
-			font-size: 50px;
-			background-color:#1EA896;
+		#borderimg2{
+			border: 10px solid;
+  			padding: 15px;
+  			margin: 1%;
+  			border-image-source: url(sidedish.jpg);
+  			border-image-repeat: repeat;
+  			border-image-slice: 30;
+  			border-image-width: 20px;
 		}
+		#note {
+			padding: 2%;
+			text-align: center;
+			font-size: 45px;
+			font-weight: bold;
+			background-color: #BF2237;
+			margin-left: 40%;
+			margin-right: 40%;
+		}
+		#thickhr{
+			padding: 5px;
+			background-color: #E4FF85;
+		}
+		#fancypic{
+			border: 10px;
+			border-style: inset;
+		}
+		#stick{
+  			position: sticky;
+  			top: 0;
+  			padding: 5px;
+  			background-color: #cae8ca;
+  			border: 2px solid #4CAF50;
+  			border-radius: 15%;
+  			font-family: Londrina Sketch;
+  			color: #000;
+
+		}
+		#contentA{
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			margin-left: 31%;
+		}
+		#nicetext{
+			font-family: Source Serif 4;
+			text-align: center;
+			font-size: 30px;
+			margin: 2%;
+			padding: 2%;
+			background-color: rgb(246, 238, 238);
+			border-radius: 20px;
+		}
+
+		.Set-left{
+			display: flex;
+			justify-content: ;
+			margin: 3%;
+			padding: 5%;
+			text-align: center;
+		}
+		.area1{
+			background-color: #E4FF85;
+			border: dotted;
+			border-width: 5px;
+		}
+		.good-text{
+			text-align: center;
+			margin: 2%;
+		}
+		.good-text2{
+			text-align: left;
+			margin: 2%;
+			padding-left: 10%;
+		}
+		.larger{
+			text-decoration: bold;
+			font-size: 60px;
+			margin-left: 2%;
+
+		}
+		.List{
+			font-family: 'Londrina Sketch',cursive;
+			font-size: 30px;
+			display: inline-flex;
+			flex-direction: column;
+			background-color: #BF2237;
+			border-bottom: 5px dotted;
+			border-top: 5px dotted;
+			border-radius: 10%;
+			box-shadow: 10px 20px #000;
+		}
+		.Nicebackground{
+			background-image: url(Chefs.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+		.float-container {
+			border: 3px solid #fff;
+			padding: 20px;
+		}
+		.float-child {
+			width: 50%;
+			float: left;
+			padding: 20px;
+			border: 2px solid darkred;
+		}
+		.container{
+			display: flex;
+		}
+		.item{
+			flex-basis: 750px;
+			display: flex;
+  			height: 550px;
+  			background: #9EE6B6;
+  			margin: 5px;
+  			float: left;
+  			text-align: center;
+		}
+		.item2{
+			flex-basis: 350px;
+  			height: 550px;
+  			background: #ce8888;
+  			margin: 5px;
+  			
+		}
+		.button1{
+  			background-color: #4CAF50; /* Green */
+  			border: none;
+  			color: white;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+  			float: left;
+		}
+		.test{
+			background-color: rgb(246, 238, 238);
+			padding: 2%;
+		}
+		.test2{
+			background-color: rgb(246, 238, 238);
+			padding: 2%;
+			margin: 2%;
+		}
+
 	</style>
 </head>
 <body>
-
-	<h1 class="moved">Super Bare Care</h1>
-	<h2>Jamaal Jackson</h2>
-	<section>
-		Welcome to our bear page! Here you are looking at the one and only Jamaal Jackson, the finest most talented bear on the market.
-
+	<div id="nicebackground">
+		<br>
+		<h1>How To Make Chicken Stir Fry</h1>
+		<br>
+	</div>
+<hr>
+	<main>	
+	<section class="area1">
+		<p class="good-text">Hello there! Today we are going to teach you how to make a dish called Stir Fry Chicken!</p>
+		<div class="Set-left">
+			<img src="stir fry.jpg" width="50%" height="50%" border="10px">
+			<p>When it comes to making food, you always want to be prepared. Don't make any dish you're not prepared to eat, or clean up! This will be a fun activity that engages and makes you feel proud.</p>
+		</div>
 	</section>
-	<hr>
-	<section>
-		Don't be fooled by his stature, he is a very nice and warm hearted bear just waiting to make someones day. He's really good at counseling, you'll never go a day without smiling around him. 
+	</main>
+	<!--step 1-->
+	<h3>Step 1: Gather all your ingredients</h3>
+	<h2 class="larger">First and foremost before you start cooking</h2>
+	<section class="Nicebackground">
+
+		<div>
+			<p class="test">Make sure you have all your ingredients together. For this you will need:</p>
+			<ul class="List">
+				<li>Chicken Breast</li>
+				<li>Broccoli</li>
+				<li>Bell Peppers</li>
+				<li>Onions</li>
+				<li>Tamari Soy Sauce (or any sauces)</li>
+				<li>Carrots</li>
+			</ul>
+		</div>
 	</section>
-	<br>
-	<a href="">
-		<img width=35% height=35% src="https://upload.wikimedia.org/wikipedia/commons/a/a9/GrizzlyBearJeanBeaufort.jpg">
-		<img width=32% height=32% src="https://www.cmzoo.org/wp-content/uploads/grizzlybear-digger.jpg">
-		<img width=32% height=32% src="https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201810/d_ov_grizzlyhunter_181026.jpg">
-	</a>
-	<br>
-	<h2>Some Things About Him</h2>
-	<br>
-	<ul>
-		<p class="fittingsize">Well, we can first start with his enamoring demeanor. He encourages everyone to move under true good work and pride themselves to serving their customers. He really doesn't have to go on and explain his whole performance (even though he will), he'll let his work ethic speak for itself. If you desire a bear who is enthusiastic about his work, and is willing to reach the ends of the Earth for your satisfaction, then you should consider Jamaal Jackson as your #1 choice in bear-kind service. Hit him up and hopefully he can be your first (maybe even second, or third) choice of business!</p>
-		<li>Maybe he can mow your lawn! (standing)</li>
-		<li>Catch your fish for you!</li>
-		<li>Make a really good Yogie Bear actor. (If anyone knows)</li>
-		<li>Be a real life experience version of your favorite teddy bear.</li>
-	</ul>
-	<br>
-	<br>
-	<content>
-		<img width=50% height=50% src="https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgxMTA5MzA1MDMzMzY4OTM2/bear-attacks-gettyimages-78725607.jpg">
-		<img width=49% height=50% src="https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fbealestreetbears.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F864806054-850x560.jpeg">
-		<div class="w3-panel w3-leftbar w3-light-grey">
-      		<p><i>"Use products from nature for what it's worth - and have some fun in the court while you're at it." Fresh is the new sweet.</i></p>
-      		<p>Jamaal Jackson, Bearest, Grizzly, Founder of Fun Time Nature</p>
-    	</div>
+	<p id="note">Note:</p>
+	<p class="good-text">These are just the basic ingredients, if you want to you can add any other sauces or ingredients to your dish to make it spazzy. Don't let a set of preset rules make you lose creativity, dive in!</p>
+	<section>
+	<content id="contentA">
+		<a href="https://www.walmart.com/ip/Broccoli-Bunch-Each/51259307?wl13=175&selectedSellerId=0">
+			<button class="button1">Broccoli</button>
+		</a>
+		<a href="https://www.gardensalive.com/product/sweet-bell-pepper-hybrid-mix1?p=0176757&pid=64562&utm_source=google&utm_medium=organicpla">
+			<button class="button1">Bellpeppers</button>
+		</a>
+		<a href="https://www.walmart.com/ip/Sanderson-Farms-Boneless-Skinless-Chicken-Breast-Fillets-with-Rib-Meat-3-0-4-0-lb/167389817?wl13=1561&selectedSellerId=0">
+			<button class="button1">Chicken</button>
+		</a>
+		<a href="https://www.farmerseed.com/product/tendersweet-carrot?p=8200553&utm_source=google&utm_medium=organicpla">
+			<button class="button1">Carrots</button>
+		</a>
+
+
 	</content>
-	<h1 class="moved">Hobbies and Appetite</h1>
-		<p class="w3-center w3-padding-50">
-			If you have any desire to see him in action, come check out this awesome sport right here!
-			<a href="https://www.nba.com/grizzlies/schedule">
-			
-				<p class="w3-center w3-padding-64"><button class="w3-button w3-black" type="submit">The Grizz</button></p>
-			</a>
-		</p>
-		<p class="w3-center w3-padding-50">Don't overlook 'im, Jamaal Jackson is a bear of excitement. Not too many people know about his expeditions to Canada, or his discoveries he found while hiking the mountains in Russia. As a bear, he has a hiking kind of nature to him. He also has a hand in the Memphis basketball team, but he doesn't usually like to get into that. When Jamaal hikes, he's also on the lookout for his free meals in the wild. Fish with blueberries and a special sauce is what he loves the most. Give him that and he might let you tour his land.</p>
-	<h1 class="moved">The Importance of Bearhood</h1>
-		<p class="w3-center w3-padding-50">When it comes to bears, these creatures can be relatively nice as long as you don't pester them. Most animals won't harm you unless you pose as a threat to them or they have another reason to attack you. Love and appreciate a bear, like Jamaal, and he will love and appreciate you. There's nothing to it!</p>
+	</section>
+	<hr id="thickhr">
+	<!--step 2-->
+	<h3>Step 2: Cook & Cut Chicken Breast</h3>
+	<section id="borderimg">
+
+		<div class="Set-left">	
+				<img src="chicken.jpg" width="30%" height="30%" border="10px">
+			<p class="good-text2">To start, first you should put the chicken on an oven-safe pan and set the temperature to about 400 degrees for 22 to 26 minutes. When they reach an internal temperature close to 165 degrees, take them out and rest a minute. Afterwards, cut the chicken into small square pieces (or any shape if you want). Now you have your chicken ready to go.</p>
+		</div>
+
+	</section>
+	<h3>Steps 3 Through 7, Combining Sides</h3>
+	<content id="stick">Want to learn more cooking? Sign up for 3.99</content>
+	<section id="borderimg2">
+		<div>
+			<p class="test2">Now that we got past the more intensive stuff, we can cut to the chase with the choice cuts!</p>
+		</div>
+		<!--step 3-->
+		<div class="container">
+			<div class="item">
+				<img src="steamed-broccoli.jpg" width="40%" height="50%" border="10px">
+				<p class="good-text2">Next you want to boil the broccoli. For this you will likely just need to thaw and let it boil for 3 minutes. If you wish to go further with season and roasting, go right ahead.</p>
+			</div>
+			<div class="item2">
+				<h3 class="test"> Step 3: Boil Broccoli</h3>
+				<img src="boiling.jpg" width="100%" height="50%">
+			</div>
+		</div>
+		<hr id="thickhr">
+		<!--step 4-->
+		<div class="container">
+			<div class="item">
+				<img src="bellpeppers.webp" width="40%" height="50%" border="10px">
+				<p class="good-text2">Getting more simpler! Now you need to cut some bellpeppers to the desired sizes and add them to your dish.</p>
+			</div>
+			<div class="item2">
+				<h3 class="test"> Step 4: Cut The Bellpeppers</h3>
+				<img src="bellcutting.webp" width="100%" height="50%">
+			</div>
+		</div>
+		<hr id="thickhr">
+		<!--step 5-->
+		<div class="container">
+			<div class="item">
+				<img src="onions.jpeg" width="40%" height="50%" border="10px">
+				<p class="good-text2">Don't cry, this step is just cutting up another side. You will then take the onions and slice them to your desire. You can then season and alter whatever you want.</p>
+			</div>
+			<div class="item2">
+				<h3 class="test"> Step 5: Chop Onions</h3>
+				<img src="chopping-onions.webp" width="100%" height="50%">
+			</div>
+		</div>
+		<hr id="thickhr">
+		<!--step 6-->
+		<div class="container">
+			<div class="item">
+				<img src="carrots.jpg" width="40%" height="50%" border="10px">
+				<p class="good-text2">Keep your eyes out for bugs, because you will now grab some carrots, cut them into smaller sizes, and add them to the mix.</p>
+			</div>
+			<div class="item2">
+				<h3 class="test"> Step 6: Chop Carrots</h3>
+				<img src="cutcarrots.jpg" width="100%" height="50%">
+			</div>
+		</div>
+		<hr id="thickhr">
+		<!--step 7-->
+		<div class="container">
+			<div class="item">
+				<img src="tamari.jpg" width="40%" height="50%" border="10px">
+				<p class="good-text2">Now for the finishing touch! Take your Tamari Sauce, or whatever sauce is best to your taste, and spread it on your mix!</p>
+			</div>
+			<div class="item2">
+				<h3 class="test"> Step 7: Add and Mix Tamari Sauce</h3>
+				<img src="eat.jpg" width="100%" height="50%">
+			</div>
+		</div>
+	</section>
+	<h3>Voilà!</h3>
+	<footer>
+		<section>
+			<p class="good-text">Congradulations, you have now just made chicken stir fry!</p>
+			<p id="nicetext"> If you followed the steps correctly, you just made your first dish. Horray! Now you can tell your friends and family what an awesome cook you are and how good your mixed dish was.</p>
+		</section>
+		<h4>If you would like to learn more cooking, you can visit our growing community</h4>
+		<br>
+		<br>
+		<br>
+		<content>Allergy info: Contains no known serious allergies unless you are allergic or sensitive to peppers.</content>
+	</footer>
+
 </body>
 </html>
